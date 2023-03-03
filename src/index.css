@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(230, 182, 94);
+  height: 100vh;
+}
+
+.card:hover {
+  box-shadow: 1px 3px 15px 1px;
+}
+
+.logo {
+  transition: transform 0.2s;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+} */
+
+.app {
+  display: flex;
+  padding: 2rem;
+}
+
+@media(max-width:750px) {
+  .app {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+}
